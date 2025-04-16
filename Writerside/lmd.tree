@@ -13,6 +13,12 @@
         <toc-element topic="Underground_Rules.md"/>
     </toc-element>
     <toc-element topic="Sets_Introduction.md"/>
+    <toc-element topic="Sets_Basic_Concepts.md"/>
+    <toc-element topic="Sets_Relations.md"/>
+    <toc-element topic="Sets_Operations.md"/>
+    <toc-element topic="Numeric_Sets.md"/>
+    <toc-element topic="Numeric_Sets_Exercises.md"/>
+    <toc-element topic="Numeric_Sets_Solutions.md"/>
 
 
 </instance-profile>
