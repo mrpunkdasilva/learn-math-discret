@@ -10,18 +10,21 @@
         <og-image>logo-primary.svg</og-image>
         <og-twitter>logo-primary.svg</og-twitter>
     </variables>
-    <build-profile instance="lmd">
+    <build-profile instance="hi">
         <variables>
+            <primary-color>purple</primary-color>
             <noindex-content>true</noindex-content>
         </variables>
     </build-profile>
 
 
+    <llms-txt single-file="true"/>
+    <sitemap change-frequency="daily" priority="0.6"/>
+
     <footer>
         <copyright>PunkDomus 2025 - Cyberpunk Docker Edition</copyright>
-        <social type="blog" href="https://dev.to/tag/docker">Dev.to Mr Punk Posts</social>
-        <social type="twitter" href="https://twitter.com/docker">Mr Punk on Twitter</social>
-        <link href="https://docs.docker.com">Documentação Oficial Docker</link>
+        <social type="blog" href="https://dev.to/mrpunkdasilva">Dev.to Mr Punk Posts</social>
+        <social type="twitter" href="https://twitter.com/mrpunksama">Mr Punk on Twitter</social>
     </footer>
 
 </buildprofiles>
