@@ -3,6 +3,45 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="Learn Math Discret" start-page="">
+                 name="Aprenda Matemática Discreta"
+                 start-page="Welcome.md">
+
+    <toc-element topic="Welcome.md" toc-title="Boas-vindas"/>
+
+    <toc-element toc-title="Teoria dos Conjuntos">
+        <toc-element topic="Teoria-dos-Conjuntos/Nocoes-de-Conjuntos.md" toc-title="Noções de Conjuntos: Os blocos de construção"/>
+        <toc-element topic="Teoria-dos-Conjuntos/Relacoes-de-Pertinencia-e-Inclusao.md" toc-title="Relações: Pertence ou não pertence?"/>
+        <toc-element topic="Teoria-dos-Conjuntos/Operacoes-entre-Conjuntos.md" toc-title="Operações: Brincando com conjuntos"/>
+        <toc-element topic="Teoria-dos-Conjuntos/Conjuntos-Numericos.md" toc-title="Conjuntos Numéricos: Os clubes dos números"/>
+    </toc-element>
+
+    <toc-element toc-title="Relação e Função">
+        <toc-element topic="Relacao-e-Funcao/Relacao.md" toc-title="Relações: Mais que um status de Facebook"/>
+        <toc-element topic="Relacao-e-Funcao/Funcao.md" toc-title="Funções: As máquinas de transformar"/>
+    </toc-element>
+
+    <toc-element toc-title="Análise Combinatória">
+        <toc-element topic="Analise-Combinatoria/Principio-de-Contagem.md" toc-title="Princípio da Contagem: O poder do E e do OU"/>
+        <toc-element topic="Analise-Combinatoria/Arranjos.md" toc-title="Arranjos: Quando a ordem importa"/>
+        <toc-element topic="Analise-Combinatoria/Permutacoes.md" toc-title="Permutações: Trocando tudo de lugar"/>
+        <toc-element topic="Analise-Combinatoria/Combinacoes.md" toc-title="Combinações: Quando a ordem NÃO importa"/>
+    </toc-element>
+
+    <toc-element toc-title="Teoria dos Números">
+        <toc-element topic="Teoria-dos-Numeros/Principio-de-Inducao-Finita.md" toc-title="Indução Finita: O efeito dominó"/>
+        <toc-element topic="Teoria-dos-Numeros/Divisibilidade.md" toc-title="Divisibilidade: Amigos que se dividem"/>
+        <toc-element topic="Teoria-dos-Numeros/Divisao-com-Resto.md" toc-title="Divisão com Resto: O que sobra também importa"/>
+        <toc-element topic="Teoria-dos-Numeros/Numeros-Primos.md" toc-title="Números Primos: Os átomos da matemática"/>
+        <toc-element topic="Teoria-dos-Numeros/Equacoes-Diofantinas-Lineares.md" toc-title="Equações Diofantinas: Em busca de soluções inteiras"/>
+        <toc-element topic="Teoria-dos-Numeros/Fatoracao.md" toc-title="Fatoração: Desmontando os números"/>
+        <toc-element topic="Teoria-dos-Numeros/Congruencias.md" toc-title="Congruências: A aritmética do relógio"/>
+    </toc-element>
+
+    <toc-element toc-title="Estruturas Algébricas">
+        <toc-element topic="Estruturas-Algebricas/Definicao-e-Propriedades-dos-Grupos.md" toc-title="Grupos: As regras do jogo"/>
+        <toc-element topic="Estruturas-Algebricas/Subgrupos.md" toc-title="Subgrupos: Os grupinhos dentro do grupo"/>
+        <toc-element topic="Estruturas-Algebricas/Homomorfismos-e-Isomorfismo.md" toc-title="Homomorfismos e Isomorfismos: Gêmeos de estruturas diferentes"/>
+        <toc-element topic="Estruturas-Algebricas/Aneis-e-Corpos.md" toc-title="Anéis e Corpos: Elevando o nível do jogo"/>
+    </toc-element>
 
 </instance-profile>
